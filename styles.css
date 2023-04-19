@@ -41,7 +41,7 @@ i {
     background: white;
     min-height: 80vh;
     width: 60%;
-    background: linear-gradient(to right top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1));
     border-radius: 2rem;
     z-index: 1;
 }
@@ -72,3 +72,60 @@ i {
     align-items: center;
     margin: 1rem 0;
 }
+
+
+@media screen and (max-width: 768px) {
+    .glass {
+        width: 90%;
+    }
+
+    .profile img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    i {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .glass {
+        width: 100%;
+    }
+
+    .profile img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    i {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 0.6rem;
+    }
+
+    .container {
+        padding: 0.5rem;
+    }
+}
+
