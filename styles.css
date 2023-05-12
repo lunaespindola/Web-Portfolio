@@ -73,6 +73,11 @@ i {
     margin: 1rem 0;
 }
 
+.projects{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
 
 @media screen and (max-width: 768px) {
     .glass {
