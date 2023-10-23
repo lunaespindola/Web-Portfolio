@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "react-datetime-bootstrap": ["./react-datetime-bootstrap.d.ts"],
+      "@/*": ["./src/*"]
+    }
+  },
+
+
+  
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Comparar/Acordeon.tsx", "src/components/Comparar/AgregarContainer.jsx", "src/components/Inicio/Hero.jsx", "src/components/Inicio/WheelieIntro.jsx", "src/components/checkout/AlertMessage.tsx", "src/components/checkout/CarSummary.jsx", "src/pages/index.tsx"],
+
+  "exclude": ["node_modules"]
+}
